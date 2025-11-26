@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Resoluciones para la Desigualdad</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+body {
+font-family: "Poppins", Arial, sans-serif;
+background-color: #ffffff;
+color: #333;
+}
+
+.navbar {
+background: linear-gradient(90deg, #ffffff 0%, #826cac 100%);
+box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.navbar-brand {
+font-weight: bold;
+letter-spacing: 4px;
+font-size: 4rem;
+color: #fcfcfc;
+text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+
+transition: transform 0.3s, color 0.3s;
+}
+.nav-link {
+color: #ffffff;
+font-weight: 500;
+}
+
+.nav-link:hover {
+color: #e0dcc1;
+}
+
+header {
+background: linear-gradient(180deg, #ffffff 0%, #f2f4ff 100%);
+border-bottom: 4px solid #ae8db4;
+}
+
+header h1 {
+color: #8d6da0;
+font-weight: 700;
+}
+
+main h2, main h3 {
+color: #9b84b4;
+font-weight: 700;
+}
+
+main p {
+font-size: 1.1rem;
+line-height: 1.6;
+
+color: #444;
+}
+
+footer {
+background: linear-gradient(90deg, #634d8d 0%, #a382f0 100%);
+box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
+}
+
+footer p {
+margin: 0;
+font-size: 0.95rem;
+letter-spacing: 0.5px;
+}
+
+.res-card {
+background: #f6f3ff;
+border-left: 5px solid #9b84b4;
+border-radius: 10px;
+padding: 20px;
+margin-bottom: 25px;
+box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+transition: transform .3s;
+}
+
+.res-card:hover {
+transform: scale(1.02);
+}
+</style>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark">
+<div class="container">
+<img src="UNI2logo.png" alt="Logo Uni2 Por Igual" width="180" height="180">
+<a class="navbar-brand" href="index.html">Uni2</a>
+<div>
+
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="Uni2.html">Inicio</a></li>
+<li class="nav-item"><a class="nav-link" href="afectaciones.html">Afectaciones</a></li>
+<li class="nav-item"><a class="nav-link" href="estadisticas.html">Estadísticas</a></li>
+<li class="nav-item"><a class="nav-link" href="resolucion.html">Resolución</a></li>
+<li class="nav-item"><a class="nav-link" href="conocenos.html">Conócenos</a></li>
+<li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<header class="text-center py-5 shadow-sm">
+<div class="container">
+<h1 class="display-5 fw-bold">Soluciones para Reducir la Desigualdad</h1>
+<p class="lead">La desigualdad puede combatirse a partir de políticas inclusivas, acciones sociales y un
+compromisos.</p>
+</div>
+</header>
+
+<main class="container my-5">
+
+<section>
+<h2 class="text-center mb-4">Principales Resoluciones</h2>
+
+<div class="res-card">
+<h3>1. Educación inclusiva y de calidad</h3>
+<p>
+Una de las acciones más eficaces para disminuir la desigualdad es optimizar el acceso a la educación
+para todas las clases sociales.
+Esto comprende programas de alfabetización para adultos, becas para alumnos con escasos recursos y
+educación sin costo.
+</p>
+</div>
+
+<div class="res-card">
+<h3>2. Accesibilidad a servicios de salud</h3>
+<p>
+Para reducir la disparidad social, es fundamental extender el acceso a la salud pública, asegurar que los
+fármacos sean asequibles y garantizar una atención médica digna para los grupos vulnerables y las áreas
+rurales.
+</p>
+</div>
+
+<div class="res-card">
+<h3>3. Trabajo digno y salarios justos</h3>
+<p>
+Fomentar el empleo formal, optimizar las condiciones laborales y asegurar remuneraciones equitativas
+contribuyen a la disminución de la inequidad económica entre grupos sociales.
+</p>
+</div>
+
+<div class="res-card">
+<h3>4. Eliminación de la discriminación</h3>
+<p>
+El establecimiento de leyes que salvaguarden a individuos discriminados por su género, raza, condición
+económica, discapacidad u orientación sexual posibilita la construcción de una sociedad equitativa.
+</p>
+</div>
+
+<div class="res-card">
+<h3>5. Políticas fiscales más justas</h3>
+<p>
+Es requerido que aquellos con mayores ingresos aporten en proporción mayor.
+Una recaudación equitativa posibilita la financiación de programas sociales que contribuyen a disminuir
+la desigualdad estructural.
+</p>
+</div>
+
+<div class="res-card">
+<h3>6. Igualdad de género</h3>
+<p>
+Disminuir la diferencia salarial, asegurar que las niñas tengan acceso a la educación y promover que las
+mujeres ocupen puestos relevantes son formas importantes de luchar contra la desigualdad.
+</p>
+</div>
+
+<div class="res-card">
+<h3>7. Desarrollo sostenible y equitativo</h3>
+<p>
+Al invertir en transporte público, energías renovables e infraestructura, se mejora la calidad de vida en
+áreas rurales y urbanas, disminuyendo las disparidades regionales.
+
+</p>
+</div>
+
+<div class="res-card">
+<h3>8. Programas de apoyo a grupos vulnerables</h3>
+<p>
+Son acciones directas, como programas de vivienda, alimentación y empleo, así como apoyos
+económicos dirigidos a personas que viven en extrema pobreza, a migrantes, indígenas y a individuos con
+discapacidad.
+</p>
+</div>
+
+</section>
+
+<div class="text-center mt-5">
+<img src="IGUALDAD.png" alt="Igualdad" style="width: 90%; max-width: 400px;">
+</div>
+
+</main>
+
+<footer class="text-white text-center py-3">
+<p>UNI2-Por Igual</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
