@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contacto | Uni2 Por Igual</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+body {
+font-family: "Poppins", Arial, sans-serif;
+background-color: #ffffff;
+color: #333;
+}
+
+.navbar {
+background: linear-gradient(90deg, lab(100% 0.01 -0.01) 0%, #826cac 100%);
+box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.navbar-brand {
+font-weight: bold;
+letter-spacing: 4px;
+font-size: 4rem;
+color: #fcfcfc;
+text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+
+transition: transform 0.3s, color 0.3s;
+}
+
+.nav-link {
+color: #ffffff;
+font-weight: 500;
+}
+
+.nav-link:hover {
+color: #e0dcc1;
+}
+
+header {
+background: linear-gradient(180deg, #ffffff 0%, #f2f4ff 100%);
+border-bottom: 4px solid #ae8db4;
+}
+
+header h1 {
+color: #8d6da0;
+text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+main h2 {
+color: #9b84b4;
+font-weight: 700;
+}
+
+footer {
+background: linear-gradient(90deg, #634d8d 0%, #a382f0 100%);
+box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
+
+}
+
+.btn-custom {
+background-color: #b28fd8;
+color: #fff;
+border-radius: 25px;
+padding: 10px 20px;
+border: none;
+}
+
+.contact-card {
+background: #f9f7ff;
+border-left: 5px solid #9b84b4;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+</style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+<div class="container">
+<img src="UNI2logo.png" alt="Logo Uni2 Por Igual" width="180" height="180">
+<a class="navbar-brand" href="index.html">Uni2</a>
+
+<div>
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item"><a class="nav-link" href="Uni2.html">Inicio</a></li>
+<li class="nav-item"><a class="nav-link" href="afectaciones.html">Afectaciones</a></li>
+<li class="nav-item"><a class="nav-link" href="estadisticas.html">Estadísticas</a></li>
+<li class="nav-item"><a class="nav-link" href="resolucion.html">Resolución</a></li>
+<li class="nav-item"><a class="nav-link" href="conocenos.html">Conócenos</a></li>
+<li class="nav-item"><a class="nav-link active" href="contacto.html">Contacto</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<header class="text-center py-5 shadow-sm">
+<div class="container">
+<h1 class="display-5 fw-bold">Contáctanos</h1>
+<p class="lead">Estamos aquí para asistirte y aclarar cualquier pregunta que tengas acerca de nuestra
+misión por la igualdad.</p>
+</div>
+</header>
+
+<main class="container my-5">
+<div class="row g-4">
+
+<div class="col-md-6">
+<h2 class="mb-4">Información de contacto</h2>
+
+<div class="contact-card mb-3">
+<h4 class="mb-2">📍 Dirección</h4>
+<p>Av. Acueducto de Guadalupe 25, Santa Isabel Tola, Gustavo A. Madero, 07010 Ciudad de México,
+CDMX</p>
+</div>
+
+<div class="contact-card mb-3">
+<h4 class="mb-2">📞 Teléfono</h4>
+<p>+52 55 5577 2990 / +52 55 7497 9647</p>
+</div>
+
+<div class="contact-card mb-3">
+<h4 class="mb-2">✉️ Correo electrónico</h4>
+<p>organizacionuni2porigual@gmail.com</p>
+</div>
+</div>
+
+<div class="col-md-6">
+<h2 class="mb-4">Envíanos un mensaje</h2>
+
+<form>
+<div class="mb-3">
+<label class="form-label">Nombre completo</label>
+<input type="text" class="form-control" placeholder="Escribe tu nombre">
+</div>
+
+<div class="mb-3">
+<label class="form-label">Correo electrónico</label>
+<input type="email" class="form-control" placeholder="ejemplo@correo.com">
+</div>
+
+<div class="mb-3">
+<label class="form-label">Mensaje</label>
+<textarea class="form-control" rows="5" placeholder="Escribe tu mensaje aquí"></textarea>
+
+</div>
+
+<button type="submit" class="btn-custom">Enviar mensaje</button>
+</form>
+</div>
+
+</div>
+</main>
+
+<!-- FOOTER -->
+<footer class="text-white text-center py-3">
+<p>UNI2-Por igual</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
