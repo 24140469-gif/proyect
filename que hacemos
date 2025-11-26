@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Uni2 – Lo que hacemos</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+body {
+font-family: "Poppins", Arial, sans-serif;
+background-color: #ffffff;
+color: #333;
+}
+
+.navbar {
+background: linear-gradient(90deg, lab(100% 0.01 -0.01) 0%, #826cac 100%);
+box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.navbar-brand {
+font-weight: bold;
+letter-spacing: 4px;
+font-size: 4rem;
+color: #fcfcfc;
+text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+
+transition: transform 0.3s, color 0.3s;
+}
+
+.nav-link {
+color: #ffffff;
+font-weight: 500;
+transition: color 0.3s;
+}
+
+.nav-link:hover {
+color: #e0dcc1;
+}
+
+header {
+background: linear-gradient(180deg, #ffffff 0%, #f2f4ff 100%);
+border-bottom: 4px solid #ae8db4;
+}
+
+header h1 {
+color: #8d6da0;
+text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+header p {
+color: #555;
+max-width: 700px;
+margin: 0 auto;
+}
+
+main h2 {
+
+color: #9b84b4;
+font-weight: 700;
+}
+
+img {
+transition: transform 0.4s, box-shadow 0.4s;
+}
+
+.btn-custom {
+background-color: #b28fd8;
+color: #fff;
+border-radius: 25px;
+padding: 10px 20px;
+border: none;
+transition: background 0.3s;
+}
+
+footer {
+background: linear-gradient(90deg, #634d8d 0%, #a382f0 100%);
+box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
+}
+
+footer p {
+margin: 0;
+font-size: 0.95rem;
+letter-spacing: 0.5px;
+}
+</style>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark">
+<div class="container">
+<img src="UNI2logo.png" alt="Logo Uni2 Por Igual" width="180" height="180">
+<a class="navbar-brand" href="index.html">Uni2</a>
+
+<div>
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="Uni2.html">Inicio</a></li>
+<li class="nav-item"><a class="nav-link" href="afectaciones.html">Afectaciones</a></li>
+<li class="nav-item"><a class="nav-link" href="estadisticas.html">Estadísticas</a></li>
+<li class="nav-item"><a class="nav-link" href="resolucion.html">Resolución</a></li>
+<li class="nav-item"><a class="nav-link" href="conocenos.html">Conócenos</a></li>
+<li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<header class="text-center py-5 shadow-sm">
+<div class="container">
+<h1 class="display-5 fw-bold">¿Qué hacemos en Uni2?</h1>
+<p class="lead">En “UNI2”, creemos firmemente que la igualdad es la base para construir una sociedad
+justa, inclusiva y próspera.</p>
+</div>
+</header>
+
+<main class="container my-5">
+
+<div class="row align-items-center mb-5">
+<div class="col-md-6">
+<h2>Nuestra misión</h2>
+<p>
+En UNI2 buscamos ser un motor de cambio positivo, demostrando que es posible combinar éxito
+empresarial con responsabilidad social, impulsando una cultura donde la igualdad y la inclusión sean pilares
+fundamentales para el crecimiento sostenible y el bienestar colectivo.
+<p>
+Buscamos generar un impacto positivo en la sociedad mediante prácticas responsables, equitativas y
+sostenibles.
+Nuestro objetivo es crear soluciones accesibles y justas, que contribuyan a reducir las brechas sociales y
+económicas, fomentando un entorno donde todas las personas tengan las mismas oportunidades para crecer
+y desarrollarse.
+</p>
+<button class="btn-custom mt-3" data-bs-toggle="collapse" data-bs-target="#masMision">
+Leer más
+</button>
+
+<div class="collapse mt-3" id="masMision">
+<div class="card card-body">
+Nuestro objetivo es crear soluciones accesibles y justas, que contribuyan a reducir las brechas sociales
+y económicas, fomentando un entorno donde todas las personas tengan las mismas oportunidades para
+crecer y desarrollarse.
+Además, trabajamos en estrecha colaboración con aliados estratégicos que comparten nuestra visión para
+impulsar proyectos y acciones que contribuyan a erradicar las brechas sociales.
+</div>
+</div>
+</div>
+
+<div class="col-md-6 text-center">
+<img src="Serviciosuni2.png" alt="Misión Uni2" width="400" height="520">
+
+</div>
+</div>
+
+<div class="col-md-6 text-center order-md-2"></div>
+</div>
+
+<div class="col-md-6 order-md-1">
+<h2>¿Qué ofrecemos?</h2>
+<p>En Uni2 llevamos a cabo acciones con el objetivo de cambiar la realidad social, tales como:</p>
+<ul>
+<li><strong>Compromiso con los lectores:</strong> Nuestra empresa estará comprometida con generar
+un impacto positivo social, económica y ambientalmente.
+Brindar un valor real a los más afectados y fomentar el desarrollo inclusivo.
+</li>
+<li><strong>Enfoque Integral:</strong>Esta empresa aborda la desigualdad desde distintos ángulos:
+educativo, económico, género racial, etc.
+Un enfoque en el que se permita hablar de manera general sobre la discriminación.
+</li>
+<li><strong>Innovación:</strong> Desarrollaremos soluciones que promuevan la inclusión y la equidad.
+</li>
+<li><strong>Capacitación:</strong> Se ofrecerán programas de formación y desarrollo para las personas
+en situaciones vulnerables.
+Estos programas crearán un ambiente más inclusivo y competitividad.
+</li>
+<li><strong>Transparencia:</strong> La empresa, a partir de dichas prácticas, estará garantizando la
+reducción de desigualdades de manera efectiva.
+</li>
+<li><strong>Adaptación:</strong> Tenemos la capacidad de adaptarnos rápidamente al entorno social
+que se presente.
+
+</li>
+</ul>
+</div>
+</div>
+
+<div class="mt-5">
+<h2 class="text-center mb-4">Nuestro impacto</h2>
+
+<p>
+Por medio de nuestros proyectos, hemos conseguido promover transformaciones importantes en varias
+comunidades. Nuestro trabajo busca generar mayor conciencia social sobre la desigualdad, ya que, en los
+últimos años, la población ha mostrado un creciente interés por temas relacionados con la justicia social, la
+equidad y la inclusión. Esto abre la puerta a que más personas quieran participar, donar o colaborar en
+proyectos que busquen reducir las brechas entre distintos grupos sociales.
+
+</main>
+
+<footer class="text-white text-center py-3">
+<p>UNI2–Por Igual</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
