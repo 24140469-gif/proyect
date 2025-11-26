@@ -1,0 +1,273 @@
+  <!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reducción de las Desigualdades</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+body {
+font-family: "Poppins", Arial, sans-serif;
+background-color: #ffffff;
+color: #333;
+}
+
+.navbar {
+background: linear-gradient(90deg, lab(100% 0.01 -0.01) 0%, #826cac 100%);
+box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.navbar-brand {
+font-weight: bold;
+letter-spacing: 4px;
+font-size: 4rem;
+color: #fcfcfc;
+text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+
+transition: transform 0.3s, color 0.3s;
+}
+
+.nav-link {
+color: #ffffff;
+font-weight: 500;
+transition: color 0.3s;
+}
+
+.nav-link:hover {
+color: #e0dcc1;
+}
+
+header {
+background: linear-gradient(180deg, #ffffff 0%, #f2f4ff 100%);
+border-bottom: 4px solid #ae8db4;
+}
+
+header h1 {
+color: #8d6da0;
+text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+header p {
+color: #555;
+max-width: 700px;
+margin: 0 auto;
+}
+
+main h2 {
+
+color: #9b84b4;
+font-weight: 700;
+}
+
+main p {
+font-size: 1.1rem;
+line-height: 1.6;
+color: #444;
+}
+
+img {
+transition: transform 0.4s, box-shadow 0.4s;
+}
+
+footer {
+background: linear-gradient(90deg, #634d8d 0%, #a382f0 100%);
+box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
+}
+
+footer p {
+margin: 0;
+font-size: 0.95rem;
+letter-spacing: 0.5px;
+}
+
+.btn-custom {
+background-color: #b28fd8;
+color: #fff;
+border-radius: 25px;
+
+padding: 10px 20px;
+border: none;
+transition: background 0.3s;
+}
+
+</style>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark">
+<div class="container">
+<img src="UNI2logo.png" alt="Logo Uni2 Por Igual" width="180" height="180">
+<a class="navbar-brand" href="index.html">Uni2</a>
+
+<div>
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="Uni2.html">Inicio</a></li>
+<li class="nav-item"><a class="nav-link" href="afectaciones.html">Afectaciones</a></li>
+<li class="nav-item"><a class="nav-link" href="estadisticas.html">Estadísticas</a></li>
+<li class="nav-item"><a class="nav-link" href="resolucion.html">Resolución</a></li>
+<li class="nav-item"><a class="nav-link" href="conocenos.html">Conócenos</a></li>
+<li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<header class="text-center py-5 shadow-sm">
+
+<div class="container">
+<h1 class="display-5 fw-bold">Inspírate a ser igualitario</h1>
+<p class="lead">Inspírate a ser igualitario porque la igualdad es un principio fundamental para la
+construcción de una sociedad justa, inclusiva y respetuosa.</p>
+</div>
+</header>
+
+<main class="container my-5">
+<div class="row align-items-center">
+<div class="col-md-6">
+<h2>¿Qué es la desigualdad?</h2>
+<p>La desigualdad es un desequilibrio entre dos o más personas, y puede involucrar la inequidad en
+oportunidades y derechos, en el acceso a servicios (como el de salud o educación) o a recursos, o la
+discriminación basada en el sexo, raza o clase social. Las razones dado por la desigualdad son muchas
+incluyendo estancamiento de los salarios, insuficiente protección social, cambios tecnológicos, y un
+crecimiento relación de la riqueza en la clase más alta.</p>
+
+<button class="btn-custom mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#masInfo">
+Leer más
+</button>
+
+<div class="collapse mt-3" id="masInfo">
+<div class="card card-body">
+Además la desigualdad aumenta y persiste porque determinados colectivos tienen más peso en el
+proceso normativo que otros grupos, lo que exime a otros sectores de la sociedad de poder demandar sus
+necesidades en el sistema.
+Esto lleva a distorsión de las políticas, y contraviene al proceso democrático.
+Cada dimensión de la desigualdad frena en gran medida nuestra capacidad para SSH que si eres muy
+consciente de todo lo que está mal con respecto a la desigualdad y si lo único que ves es desde el prisma de la
+Agenda 2030.
+Un estudio realizado por Oxfam sostiene que 26 personas tienen la misma riqueza que 3800 millones
+de personas.
+
+Entretanto, más de un cuarto de todos los adultos empleados son pobres y ganan menos de 3,10
+dólares por día.
+El número de trabajadores que no reciben buen salario ha ido en aumento.
+</div>
+</div>
+</div>
+
+<div class="col-md-6 text-center">
+<img src="1des.png" alt="Desigualdad 1" height="260" width="380">
+</div>
+</div>
+
+<div class="tipos mt-5">
+<h2 class="text-center mb-4">Tipos de desigualdad</h2>
+
+<h3>Desigualdad social</h3>
+<p>Marca diferencias socioeconómicas que hacen que una persona sea tratada diferente a otra. Su
+posición social, localización económica, creencias religiosas, color de piel, identidad de género, preferencias
+sexuales, nacionalidad u origen o cultura, entre otras cosas.</p>
+
+<h3>Desigualdad económica</h3>
+<p>Está relacionada con la repartición de la renta dentro de una sociedad. Estas diferencias determinan la
+capacidad que tienen las personas para acceder a los bienes y servicios, y se manifiestan sobre todo en los
+ingresos que distinguen a los ricos de los pobres.</p>
+
+<h3>Desigualdad en la educación</h3>
+<p>Se asocia con las diferencias en el acceso a la educación. Es una de las manifestaciones más graves de
+la desigualdad social, ya que refleja la desigualdad de oportunidades entre individuos según su estatus o clase
+social.</p>
+
+<h3>Desigualdad de género</h3>
+<p>La desigualdad entre hombres y mujeres es la causante principal de la desigualdad en nuestras
+sociedades. El sexo biológico puede ser un factor condicionante para acceder a la educación, al mundo laboral
+
+o a espacios de poder.</p>
+</div>
+
+<div class="factores mt-5">
+<h2>Factores que la generan</h2>
+<p>La desigualdad se puede presentar de distintas formas y en distintos ámbitos, lo cual puede hacer que
+los factores varíen según la problemática. Entre los principales se encuentran:</p>
+<ul>
+<li><strong>Sistemas fiscales injustos:</strong> Cuando el gobierno promueve el pago de impuestos en
+personas de menores ingresos, mientras las clases altas aportan menos proporcionalmente.</li>
+<li><strong>Distribución injusta de la inversión y gasto público:</strong> Cuando ciertos grupos se
+benefician más del acceso a servicios sociales o infraestructuras.</li>
+<li><strong>Distribución injusta de la tierra:</strong> Concentración de tierras en manos poderosas o de
+inversores extranjeros que deja sin recursos a millones de campesinos.</li>
+<li><strong>Privatización:</strong> La venta de servicios públicos puede excluir a quienes no pueden
+pagar los precios del mercado.</li>
+<li><strong>Estructuras sociales:</strong> Las normas y políticas perpetúan desigualdades al limitar
+oportunidades.</li>
+<li><strong>Orientación sexual:</strong> Las personas LGBTQ+ sufren discriminación y exclusión laboral
+y social.</li>
+<li><strong>Países empobrecidos:</strong> Enfrentan desigualdades marcadas por falta de
+infraestructura y servicios básicos.</li>
+<li><strong>Desigualdad de género:</strong> Las mujeres enfrentan barreras en educación, empleo y
+derechos económicos.</li>
+<li><strong>Servicios básicos:</strong> El acceso desigual a educación, salud y vivienda perpetúa la
+pobreza.</li>
+<li><strong>Distribución de ingresos:</strong> La concentración de la riqueza genera tensiones sociales y
+políticas.</li>
+<li><strong>Marginación:</strong> Grupos minoritarios o con discapacidad carecen de acceso a redes y
+apoyo institucional.</li>
+<li><strong>Oportunidad:</strong> La desigualdad limita el acceso a empleos bien remunerados y
+educación de calidad.</li>
+</ul>
+
+</div>
+
+<div class="grupos mt-5">
+<h2 class="text-center mb-4">Grupos más afectados por la desigualdad</h2>
+<div class="row align-items-start">
+<div class="col-md-6">
+<p>
+Entre los grupos más perjudicados por la desigualdad están las mujeres, las personas pobres, los
+pueblos indígenas y afrodescendientes, los migrantes, las personas con discapacidad y la juventud. Estas
+poblaciones sufren discriminación y carecen de acceso a oportunidades, y son afectadas de manera
+desproporcionada por crisis financieras y el cambio climático, lo que mantiene ciclos de vulnerabilidad y limita
+sus capacidades para obtener desarrollo.
+</p>
+
+<h3>Mujeres</h3>
+<p>Sufren una mayor pérdida de empleo, existen brechas salariales y son objeto de discriminación para
+la asignación de recursos y oportunidades.</p>
+
+<h3>Personas en pobreza y bajos ingresos</h3>
+<p>Son quienes encuentran mayores obstáculos para alcanzar objetivos vitalicios y sufren un deterioro
+severo del bienestar debido a la carencia de recursos y servicios.</p>
+
+<h3>Pueblos indígenas y afrodescendientes</h3>
+<p>Los mecanismos de desigualdad les afectan más profundamente y tienen mayores barreras para
+desarrollarse y/o mejorar sus condiciones de vida.</p>
+
+<h3>Personas con discapacidad</h3>
+<p>Su grado de vulnerabilidad incrementa a causa de la discriminación y el dificultoso acceso a
+oportunidades y a servicios de salud.</p>
+</div>
+
+<div class="col-md-6 d-flex flex-column align-items-center gap-3">
+
+<img src="Mujerdes.png" alt="Mujeres afectadas" class="img-fluid rounded shadow" style="width: 80%;
+max-width: 300px;">
+
+<img src="indides.png" alt="Pueblos indígenas" class="img-fluid rounded shadow" style="width: 80%; max-
+width: 300px;">
+
+<img src="Pobrezades.png" alt="Pobreza" class="img-fluid rounded shadow" style="width: 80%; max-width:
+300px;">
+<img src="discades.png" alt="Personas con discapacidad" class="img-fluid rounded shadow" style="width:
+80%; max-width: 300px;">
+</div>
+</div>
+</div>
+</main>
+
+<footer class="text-white text-center py-3">
+<p>UNI2-Por igual</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
