@@ -1,4 +1,11 @@
   <!DOCTYPE html>
+echo "# proyec" >> README.md 
+git init 
+git add README.md 
+git commit -m "primer commit" 
+git branch -M main 
+git remote add origin https://github.com/24140469-gif/proyec.git
+ git push -u origin main
 <html lang="es">
 <head>
 <meta charset="UTF-8">
